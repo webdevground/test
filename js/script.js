@@ -118,20 +118,13 @@ function initActiveNavigation() {
 
     if (!links.length) return;
 
-    const currentPage =
-        window.location.pathname.split('/').pop() || 'index.html';
+    const currentPath = window.location.pathname;
 
-    links.forEach((link) => {
-        let href = link.getAttribute('href');
-
-        if (href === '/') {
-            href = 'index.html';
-        }
-
+    links.forEach(link => {
         link.classList.remove('active');
         link.removeAttribute('aria-current');
 
-        if (href === currentPage) {
+        if (link.pathname === currentPath) {
             link.classList.add('active');
             link.setAttribute('aria-current', 'page');
         }
