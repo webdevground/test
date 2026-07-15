@@ -13,13 +13,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#1e2a3e">
-    <title> Projects | GFC Builder</title>
-    <link rel="canonical" href="https://www.gfcbuilder.com/projects.html">
-    <meta name="description" content="View GFC Builder project portfolio featuring residential, commercial and engineering projects with innovative and practical design solutions.">
-   
-    <meta property="og:title" content="Projects | GFC Builder">
-    <meta property="og:description" content="View GFC Builder project portfolio featuring residential, commercial and engineering projects with innovative and practical design solutions.">
-    <meta property="og:url" content="https://www.gfcbuilder.com/projects.html">
+    <title>Services | GFC Builder</title>
+    <link rel="canonical" href="https://www.gfcbuilder.com/Services/">
+    
+    <meta name="description" content="Explore GFC Builder services including architectural planning, structural design, construction consultancy, project management and engineering solutions.">
+
+    <meta property="og:title" content="Services | GFC Builder">
+    <meta property="og:description" content="Explore GFC Builder services including architectural planning, structural design, construction consultancy, project management and engineering solutions.">
+    <meta property="og:url" content="https://www.gfcbuilder.com/services/">
     <meta property="og:image" content="https://www.gfcbuilder.com/Image/og-image.webp">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="GFC Builder">
@@ -28,38 +29,71 @@
     <meta name="robots" content="index, follow">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Projects | GFC Builder">
-    <meta name="twitter:description" content="View GFC Builder project portfolio featuring residential, commercial and engineering projects with innovative and practical design solutions.">
-    <meta name="twitter:url" content="https://www.gfcbuilder.com/projects.html">
+    <meta name="twitter:title" content="Services | GFC Builder">
+    <meta name="twitter:description" content="Explore GFC Builder services including architectural planning, structural design, construction consultancy, project management and engineering solutions.">
+    <meta name="twitter:url" content="https://www.gfcbuilder.com/services/">
     <meta name="twitter:image" content="https://www.gfcbuilder.com/Image/og-image.webp">
     <meta name="twitter:author" content="GFC Builder"> 
-   
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "name": "Grid Frame Consultancy (GFC Builder)",
-          "url": "https://www.gfcbuilder.com",
-          "logo": "https://www.gfcbuilder.com/Image/logo.svg"
-        },
-        {
-          "@type": "CreativeWork",
-          "name": "GFC Builder Projects",
-          "url": "https://www.gfcbuilder.com/projects.html",
-          "description": "Portfolio of residential, commercial, industrial and structural engineering projects completed by GFC Builder.",
-          "creator": {
-            "@type": "Organization",
-            "name": "Grid Frame Consultancy (GFC Builder)"
+      "@type": "Service",
+      "name": "Civil Engineering & Construction Consultancy Services",
+      "serviceType": "Structural Engineering and Construction Consultancy",
+      "provider": {
+        "@type": "Organization",
+        "name": "Grid Frame Consultancy (GFC Builder)",
+        "url": "https://www.gfcbuilder.com",
+        "logo": "https://www.gfcbuilder.com/Image/logo.svg"
+      },
+      "url": "https://www.gfcbuilder.com/services/",
+      "description": "Professional structural engineering, residential design, commercial design, industrial design, structural audit, interior design, and construction consultancy services.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Engineering Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Residential Design"
+            }
           },
-          "image": [
-            "https://www.gfcbuilder.com/Image/Residential.webp",
-            "https://www.gfcbuilder.com/Image/Commercial.webp",
-            "https://www.gfcbuilder.com/Image/Industrial.webp"
-          ]
-        }
-      ]
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Commercial Design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Industrial Design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Structural Audit"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Interior Design"
+            }
+          }
+        ]
+      }
     }
     </script>
 
@@ -73,85 +107,77 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
 
     <!-- External CSS files -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/services.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
 <nav class="navbar">
     <div class="container nav-container">
-        <img src="Image/logo.svg" alt="logo" width="100" height="100"> 
-        <div class="logo"> <h1> GRID FRAME CONSULTANCY <span> (GFC BUILDER) </span> </h1><p class="owner-tag">Manoj Kumar M.E. (Structural) | Founder</p></div>
+        <a href="index.html">
+            <img src="../Image/logo.svg" alt="Grid Frame Consultancy Logo" width="100" height="100"> 
+        </a>
+        <div class="logo">
+            <h1> GRID FRAME CONSULTANCY <span> (GFC BUILDER) </span> </h1>
+            <p class="owner-tag">Manoj Kumar M.E. (Structural) | Founder</p>
+        </div>
         <button class="mobile-toggle" id="mobileToggle"><i class="fas fa-bars"></i></button>
         <ul class="nav-menu" id="navMenu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="projects.html" class="active">Projects</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="tool.html">Tool</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/services/" class="active">Services</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/tools/">Tools</a></li>
         </ul>
     </div>
 </nav>
-
 <section class="page-header">
     <div class="container">
-        <h1>Completed Projects</h1>
-        <p>Explore our portfolio of successfully completed structural engineering and construction projects.</p>
+        <h1>Our Services</h1>
+        <p>Comprehensive structural engineering and construction solutions tailored to your project needs.</p>
     </div>
 </section>
-<section class="projects-gallery reveal">
-    <div class="container">
-        <div class="projects-filter">
-            <button class="filter-btn active" data-filter="all">All</button>
-        </div>
 
-        <div class="projects-grid-full">
-            <div class="project-card" data-category="residential">
-                <img src="Image/project-1.webp" width="1200" height="900" alt="Luxury Villa Project" loading="lazy">
-                <div class="project-info">
-                    <h3><span class="info-item"><i class="fas fa-house-chimney"></i> Residential</span></h3> 
-                    <p><span class="info-item"><i class="fas fa-location-dot"></i> Coimbatore</span></p>
-                    <p><span class="info-item"><i class="far fa-calendar"></i> 2016</span></p>
-                    <p><span class="info-item"><i class="fas fa-ruler-combined"></i> 5,000 sq.ft</span></p>
-                    <p class="card-description">
-                        Modern villa with swimming pool, landscaped garden, and premium interior finishes.
-                    </p>
-                    <a href="contact.html" class="btn">Get Free Quote <i class="fas fa-arrow-right"></i></a>
-                </div>
+<section class="services-full reveal">
+    <div class="container">
+        <div class="services-grid-full">
+            <div class="service-item">
+                <i class="fas fa-home"></i>
+                <h3>Residential Design</h3>
+                <p>From single-family homes to luxury villas, we design safe, beautiful, and energy-efficient residences.</p>
             </div>
             
-            <div class="project-card" data-category="Commercial">
-                <img src="Image/project-2.webp" width="1200" height="900" alt="Office Building Project" loading="lazy">
-                <div class="project-info">
-                    <h3><span class="info-item"><i class="fas fa-building"></i> Commercial</span></h3> 
-                    <p><span class="info-item"><i class="fas fa-location-dot"></i> Chennai</span></p>
-                    <p><span class="info-item"><i class="far fa-calendar"></i> 2022</span></p>
-                    <p><span class="info-item"><i class="fas fa-ruler-combined"></i> 1,20,000 sq.ft</span></p>
-                    <p class="card-description">
-                        15-story commercial building with green features, energy-efficient systems, and modern facade.
-                    </p>
-                    <a href="contact.html" class="btn">Get Free Quote <i class="fas fa-arrow-right"></i></a>
-                </div>
+            <div class="service-item">
+                <i class="fas fa-building"></i>
+                <h3>Commercial Design</h3>
+                <p>Office buildings, shopping malls, and retail spaces with modern structural systems.</p>
             </div>
-            
-            <div class="project-card" data-category="industrial">
-               <img src="Image/project-3.webp" width="1200" height="900" alt="Manufacturing Unit Project" loading="lazy">
-                <div class="project-info">
-                    <h3><span class="info-item"><i class="fas fa-warehouse"></i> Industrial</span></h3> 
-                    <p><span class="info-item"><i class="fas fa-location-dot"></i> Cuddalore</span></p>
-                    <p><span class="info-item"><i class="far fa-calendar"></i> 2024</span></p>
-                    <p><span class="info-item"><i class="fas fa-ruler-combined"></i> 10,000 sq.ft</span></p>
-                    <p class="card-description">
-                        Pre-engineered steel structure with high bay storage, mezzanine floor, and heavy-duty flooring.
-                    </p>
-                    <a href="contact.html" class="btn">Get Free Quote <i class="fas fa-arrow-right"></i></a>
-                </div>
+            <div class="service-item">
+                <i class="fas fa-chart-line"></i>
+                <h3>Corporate Towers</h3>
+                <p>High-rise corporate buildings with advanced seismic and wind load designs.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-hotel"></i>
+                <h3>Hospitality Design</h3>
+                <p>Hotels, resorts, and restaurants – blending aesthetics with functionality.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-utensils"></i>
+                <h3>Restaurant Design</h3>
+                <p>Structural and interior planning for dining spaces.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-industry"></i>
+                <h3>Industrial Design</h3>
+                <p>Warehouses, factories, and pre-engineered steel buildings.</p>
             </div>
         </div>
     </div>
 </section>
+
 <!-- Call To Action -->
  <section class="cta reveal" aria-label="Call to action">
     <div class="container">
@@ -165,7 +191,7 @@
         <div class="cta-buttons">
 
             <!-- Get Free Quote -->
-            <a href="contact.html" class="btn btn-primary">
+            <a href="/contact/" class="btn btn-primary">
                 Get Free Quote
                 <i class="fas fa-paper-plane" aria-hidden="true"></i>
             </a>
@@ -191,12 +217,12 @@
         <div class="footer-col">
             <h4>Our Links</h4>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="tool.html">Tool</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/services/">Services</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/contact/">Contact Us</a></li>
+                <li><a href="/tools/">Tools</a></li>
             </ul>
         </div>
         <div class="footer-col">
@@ -242,9 +268,9 @@
         <div class="footer-bottom">
             <p>Copyright &copy; <span id="year"></span> Grid Frame Consultancy. All Rights Reserved.</p>
             <p>
-                <a href="privacy-policy.html" style="color: #ffffff; text-decoration: none; margin: 0 10px;" target="_blank">Privacy Policy</a> |
-                <a href="terms-and-conditions.html" style="color: #ffffff; text-decoration: none; margin: 0 10px;" target="_blank">Terms & Conditions</a> |
-                <a href="refund-policy.html" style="color: #ffffff; text-decoration: none; margin: 0 10px;" target="_blank">Refund Policy</a>
+                <a href="/privacy-policy/" style="color: #ffffff; text-decoration: none; margin: 0 10px;" target="_blank">Privacy Policy</a> |
+                <a href="/terms-and-conditions/" style="color: #ffffff; text-decoration: none; margin: 0 10px;" target="_blank">Terms & Conditions</a> |
+                <a href="/refund-policy/" style="color: #ffffff; text-decoration: none; margin: 0 10px;" target="_blank">Refund Policy</a>
             </p>
         </div>
     </footer>
@@ -267,9 +293,9 @@
     </a>
 
 <!-- Core JavaScript -->
-<script src="js/script.js"></script>
+<script src="../js/script.js"></script>
 
 <!-- Page-specific JavaScript -->
-<script src="js/pages/projects.js"></script>
+<script src="../js/pages/services.js"></script>
 </body>
 </html>
